@@ -1,0 +1,3120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1440
+    height: 900
+  m_ShowMode: 4
+  m_Title: 
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 950, y: 542}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 5}
+  - {fileID: 4}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1440
+    height: 900
+  m_MinSize: {x: 950, y: 542}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1440
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 880
+    width: 1440
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1440
+    height: 850
+  m_MinSize: {x: 508, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
+  vertical: 0
+  controlID: 9
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1163
+    height: 850
+  m_MinSize: {x: 406, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
+  vertical: 1
+  controlID: 102
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 9}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1163
+    height: 565
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
+  vertical: 0
+  controlID: 103
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 230
+    height: 565
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 230
+    y: 0
+    width: 933
+    height: 565
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  - {fileID: 15}
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 565
+    width: 1163
+    height: 285
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1163
+    y: 0
+    width: 277
+    height: 850
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 12}
+  m_Panes:
+  - {fileID: 19}
+  - {fileID: 12}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 363648761, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: GitHub
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1165
+    y: 49
+    width: 275
+    height: 829
+  m_PersistentViewDataDictionary: {fileID: 0}
+  progressMessageClearTime: 3716.691944003105
+  notificationClearTime: -1
+  timeSinceLastRotation: -1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
+  changeTab: 4
+  activeTab: 4
+  initProjectView:
+    hasCompletedInitialCheck: 0
+    isUserDataPresent: 0
+    lastCheckUserChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
+  branchesView:
+    treeLocals:
+      IsRemote: 0
+      folders:
+        keys:
+        - Local branches
+        values:
+        - path: Local branches
+          label: Local branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Local branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Local branches
+        label: Local branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: master
+        label: master
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: Game
+        label: Game
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: RealGame
+        label: RealGame
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: RealGame
+        label: RealGame
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
+    treeRemotes:
+      IsRemote: 1
+      folders:
+        keys:
+        - Remote branches
+        values:
+        - path: Remote branches
+          label: Remote branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Remote branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Remote branches
+        label: Remote branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    mode: 0
+    newBranchName: 
+    scroll: {x: 0, y: 0}
+    disableDelete: 1
+    disableCreate: 0
+    lastLocalAndRemoteBranchListChangedEvent:
+      updatedTimeString: 2018-12-11T13:00:40.967-06:00
+      cacheType: 2
+    lastCurrentBranchAndRemoteChange:
+      updatedTimeString: 2018-12-11T13:00:40.969-06:00
+      cacheType: 1
+    currentBranch:
+      name: RealGame
+      tracking: 
+    currentRemote:
+      name: origin
+      url: https://github.com/TheRealNigl/BossBattle1
+      login: 
+      user: 
+      host: 
+      function: 0
+      token: 
+    localBranches:
+    - name: master
+      tracking: origin/master
+    - name: Game
+      tracking: 
+    - name: RealGame
+      tracking: 
+    remoteBranches: []
+  changesView:
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    commitBody: Game update
+    commitMessage: Game update
+    currentBranch: '[Game]'
+    treeScroll: {x: 0, y: 0}
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 1
+      isUsingGlobalSelection: 1
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+    gitStatusEntries: []
+    changedFilesText: No changed files
+    lastCurrentBranchChangedEvent:
+      updatedTimeString: 2018-12-11T12:54:09.294-06:00
+      cacheType: 1
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 2018-12-11T12:57:57.009-06:00
+      cacheType: 5
+    lastLocksChangedEvent:
+      updatedTimeString: 2018-12-11T12:58:29.669-06:00
+      cacheType: 6
+  historyView:
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries:
+      - commitID: 7678b9281bb97265693ce429bceb7d74000bd520
+        mergeA: 
+        mergeB: 
+        authorName: Alexander Nigl
+        authorEmail: theonlynigl@gmail.com
+        commitEmail: theonlynigl@gmail.com
+        commitName: Alexander Nigl
+        summary: Adding project
+        description: Adding project
+        timeString: 2018-12-10T12:55:51.000-06:00
+        commitTimeString: 2018-12-10T12:55:51.000-06:00
+        changes:
+        - path: Assembly-CSharp.csproj
+          fullPath: /Users/alexandernigl/Projects/Flight/Assembly-CSharp.csproj
+          projectPath: Assembly-CSharp.csproj
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK.meta
+          projectPath: Assets/AWSSDK.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.CognitoIdentity.dll
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.CognitoIdentity.dll
+          projectPath: Assets/AWSSDK/AWSSDK.CognitoIdentity.dll
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.mdb
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.mdb
+          projectPath: Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.mdb
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.mdb.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.mdb.meta
+          projectPath: Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.mdb.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.meta
+          projectPath: Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.CognitoIdentity.pdb
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.CognitoIdentity.pdb
+          projectPath: Assets/AWSSDK/AWSSDK.CognitoIdentity.pdb
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.CognitoIdentity.pdb.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.CognitoIdentity.pdb.meta
+          projectPath: Assets/AWSSDK/AWSSDK.CognitoIdentity.pdb.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.Core.dll
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.Core.dll
+          projectPath: Assets/AWSSDK/AWSSDK.Core.dll
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.Core.dll.mdb
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.Core.dll.mdb
+          projectPath: Assets/AWSSDK/AWSSDK.Core.dll.mdb
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.Core.dll.mdb.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.Core.dll.mdb.meta
+          projectPath: Assets/AWSSDK/AWSSDK.Core.dll.mdb.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.Core.dll.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.Core.dll.meta
+          projectPath: Assets/AWSSDK/AWSSDK.Core.dll.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.Core.pdb
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.Core.pdb
+          projectPath: Assets/AWSSDK/AWSSDK.Core.pdb
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.Core.pdb.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.Core.pdb.meta
+          projectPath: Assets/AWSSDK/AWSSDK.Core.pdb.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.DynamoDBv2.dll
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.DynamoDBv2.dll
+          projectPath: Assets/AWSSDK/AWSSDK.DynamoDBv2.dll
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.mdb
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.mdb
+          projectPath: Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.mdb
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.mdb.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.mdb.meta
+          projectPath: Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.mdb.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.meta
+          projectPath: Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.DynamoDBv2.pdb
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.DynamoDBv2.pdb
+          projectPath: Assets/AWSSDK/AWSSDK.DynamoDBv2.pdb
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.DynamoDBv2.pdb.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.DynamoDBv2.pdb.meta
+          projectPath: Assets/AWSSDK/AWSSDK.DynamoDBv2.pdb.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.SecurityToken.dll
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.SecurityToken.dll
+          projectPath: Assets/AWSSDK/AWSSDK.SecurityToken.dll
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.SecurityToken.dll.mdb
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.SecurityToken.dll.mdb
+          projectPath: Assets/AWSSDK/AWSSDK.SecurityToken.dll.mdb
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.SecurityToken.dll.mdb.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.SecurityToken.dll.mdb.meta
+          projectPath: Assets/AWSSDK/AWSSDK.SecurityToken.dll.mdb.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.SecurityToken.dll.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.SecurityToken.dll.meta
+          projectPath: Assets/AWSSDK/AWSSDK.SecurityToken.dll.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.SecurityToken.pdb
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.SecurityToken.pdb
+          projectPath: Assets/AWSSDK/AWSSDK.SecurityToken.pdb
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/AWSSDK/AWSSDK.SecurityToken.pdb.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.SecurityToken.pdb.meta
+          projectPath: Assets/AWSSDK/AWSSDK.SecurityToken.pdb.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art.meta
+          projectPath: Assets/Art.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/Icon.png
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/Icon.png
+          projectPath: Assets/Art/Icon.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/Icon.png.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/Icon.png.meta
+          projectPath: Assets/Art/Icon.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/Icon.psd
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/Icon.psd
+          projectPath: Assets/Art/Icon.psd
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/Icon.psd.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/Icon.psd.meta
+          projectPath: Assets/Art/Icon.psd.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/ParticleFireball.mat
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/ParticleFireball.mat
+          projectPath: Assets/Art/ParticleFireball.mat
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/ParticleFireball.mat.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/ParticleFireball.mat.meta
+          projectPath: Assets/Art/ParticleFireball.mat.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/asteroid.png
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/asteroid.png
+          projectPath: Assets/Art/asteroid.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/asteroid.png.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/asteroid.png.meta
+          projectPath: Assets/Art/asteroid.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/asteroid.psd
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/asteroid.psd
+          projectPath: Assets/Art/asteroid.psd
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/asteroid.psd.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/asteroid.psd.meta
+          projectPath: Assets/Art/asteroid.psd.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/background.png
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/background.png
+          projectPath: Assets/Art/background.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/background.png.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/background.png.meta
+          projectPath: Assets/Art/background.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/ball.png
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/ball.png
+          projectPath: Assets/Art/ball.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/ball.png.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/ball.png.meta
+          projectPath: Assets/Art/ball.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/planet.jpg
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/planet.jpg
+          projectPath: Assets/Art/planet.jpg
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/planet.jpg.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/planet.jpg.meta
+          projectPath: Assets/Art/planet.jpg.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/planet.png
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/planet.png
+          projectPath: Assets/Art/planet.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/planet.png.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/planet.png.meta
+          projectPath: Assets/Art/planet.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/shootingstar.png
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/shootingstar.png
+          projectPath: Assets/Art/shootingstar.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/shootingstar.png.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/shootingstar.png.meta
+          projectPath: Assets/Art/shootingstar.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/shootingstar.psd
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/shootingstar.psd
+          projectPath: Assets/Art/shootingstar.psd
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Art/shootingstar.psd.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/shootingstar.psd.meta
+          projectPath: Assets/Art/shootingstar.psd.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Audio.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio.meta
+          projectPath: Assets/Audio.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Audio/Background.mp3
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Background.mp3
+          projectPath: Assets/Audio/Background.mp3
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Audio/Background.mp3.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Background.mp3.meta
+          projectPath: Assets/Audio/Background.mp3.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Audio/Background.wav
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Background.wav
+          projectPath: Assets/Audio/Background.wav
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Audio/Background.wav.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Background.wav.meta
+          projectPath: Assets/Audio/Background.wav.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Audio/Collision.flac
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Collision.flac
+          projectPath: Assets/Audio/Collision.flac
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Audio/Collision.flac.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Collision.flac.meta
+          projectPath: Assets/Audio/Collision.flac.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Audio/Interstellar.mp3
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Interstellar.mp3
+          projectPath: Assets/Audio/Interstellar.mp3
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Audio/Interstellar.mp3.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Interstellar.mp3.meta
+          projectPath: Assets/Audio/Interstellar.mp3.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Audio/Shoot.wav
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Shoot.wav
+          projectPath: Assets/Audio/Shoot.wav
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Audio/Shoot.wav.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Shoot.wav.meta
+          projectPath: Assets/Audio/Shoot.wav.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples.meta
+          projectPath: Assets/Examples.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/DynamoDBBaseExample.cs
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/DynamoDBBaseExample.cs
+          projectPath: Assets/Examples/DynamoDBBaseExample.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/DynamoDBBaseExample.cs.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/DynamoDBBaseExample.cs.meta
+          projectPath: Assets/Examples/DynamoDBBaseExample.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/DynamoDBExample.cs
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/DynamoDBExample.cs
+          projectPath: Assets/Examples/DynamoDBExample.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/DynamoDBExample.cs.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/DynamoDBExample.cs.meta
+          projectPath: Assets/Examples/DynamoDBExample.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/DynamoDBExample.unity
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/DynamoDBExample.unity
+          projectPath: Assets/Examples/DynamoDBExample.unity
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/DynamoDBExample.unity.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/DynamoDBExample.unity.meta
+          projectPath: Assets/Examples/DynamoDBExample.unity.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/HighLevelExample.unity
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/HighLevelExample.unity
+          projectPath: Assets/Examples/HighLevelExample.unity
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/HighLevelExample.unity.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/HighLevelExample.unity.meta
+          projectPath: Assets/Examples/HighLevelExample.unity.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/HighLevelTableExample.cs
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/HighLevelTableExample.cs
+          projectPath: Assets/Examples/HighLevelTableExample.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/HighLevelTableExample.cs.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/HighLevelTableExample.cs.meta
+          projectPath: Assets/Examples/HighLevelTableExample.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/License.txt
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/License.txt
+          projectPath: Assets/Examples/License.txt
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/License.txt.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/License.txt.meta
+          projectPath: Assets/Examples/License.txt.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/LowLevelDynamoDBExample.unity
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/LowLevelDynamoDBExample.unity
+          projectPath: Assets/Examples/LowLevelDynamoDBExample.unity
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/LowLevelDynamoDBExample.unity.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/LowLevelDynamoDBExample.unity.meta
+          projectPath: Assets/Examples/LowLevelDynamoDBExample.unity.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/LowLevelTableExample.cs
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/LowLevelTableExample.cs
+          projectPath: Assets/Examples/LowLevelTableExample.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/LowLevelTableExample.cs.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/LowLevelTableExample.cs.meta
+          projectPath: Assets/Examples/LowLevelTableExample.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/TableQueryAndScanExample.cs
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/TableQueryAndScanExample.cs
+          projectPath: Assets/Examples/TableQueryAndScanExample.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/TableQueryAndScanExample.cs.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/TableQueryAndScanExample.cs.meta
+          projectPath: Assets/Examples/TableQueryAndScanExample.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/TableQueryAndScanExample.unity
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/TableQueryAndScanExample.unity
+          projectPath: Assets/Examples/TableQueryAndScanExample.unity
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/TableQueryAndScanExample.unity.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/TableQueryAndScanExample.unity.meta
+          projectPath: Assets/Examples/TableQueryAndScanExample.unity.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/readme.md
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/readme.md
+          projectPath: Assets/Examples/readme.md
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Examples/readme.md.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/readme.md.meta
+          projectPath: Assets/Examples/readme.md.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Plugins.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins.meta
+          projectPath: Assets/Plugins.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Plugins/Android.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/Android.meta
+          projectPath: Assets/Plugins/Android.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Plugins/Android/AndroidManifest.xml
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/Android/AndroidManifest.xml
+          projectPath: Assets/Plugins/Android/AndroidManifest.xml
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Plugins/Android/AndroidManifest.xml.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/Android/AndroidManifest.xml.meta
+          projectPath: Assets/Plugins/Android/AndroidManifest.xml.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Plugins/Android/libsqlite3.so
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/Android/libsqlite3.so
+          projectPath: Assets/Plugins/Android/libsqlite3.so
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Plugins/Android/libsqlite3.so.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/Android/libsqlite3.so.meta
+          projectPath: Assets/Plugins/Android/libsqlite3.so.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Plugins/libsqlite3.so
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/libsqlite3.so
+          projectPath: Assets/Plugins/libsqlite3.so
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Plugins/libsqlite3.so.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/libsqlite3.so.meta
+          projectPath: Assets/Plugins/libsqlite3.so.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Plugins/x86_64.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/x86_64.meta
+          projectPath: Assets/Plugins/x86_64.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Plugins/x86_64/sqlite3.dll
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/x86_64/sqlite3.dll
+          projectPath: Assets/Plugins/x86_64/sqlite3.dll
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Plugins/x86_64/sqlite3.dll.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/x86_64/sqlite3.dll.meta
+          projectPath: Assets/Plugins/x86_64/sqlite3.dll.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs.meta
+          projectPath: Assets/Prefabs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Asteroid.prefab
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Asteroid.prefab
+          projectPath: Assets/Prefabs/Asteroid.prefab
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Asteroid.prefab.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Asteroid.prefab.meta
+          projectPath: Assets/Prefabs/Asteroid.prefab.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Canvas.prefab
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Canvas.prefab
+          projectPath: Assets/Prefabs/Canvas.prefab
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Canvas.prefab.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Canvas.prefab.meta
+          projectPath: Assets/Prefabs/Canvas.prefab.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/GameController.prefab
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/GameController.prefab
+          projectPath: Assets/Prefabs/GameController.prefab
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/GameController.prefab.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/GameController.prefab.meta
+          projectPath: Assets/Prefabs/GameController.prefab.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Main Camera.prefab
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Main Camera.prefab
+          projectPath: Assets/Prefabs/Main Camera.prefab
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Main Camera.prefab.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Main Camera.prefab.meta
+          projectPath: Assets/Prefabs/Main Camera.prefab.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Particle System.prefab
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Particle System.prefab
+          projectPath: Assets/Prefabs/Particle System.prefab
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Particle System.prefab.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Particle System.prefab.meta
+          projectPath: Assets/Prefabs/Particle System.prefab.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Planet.prefab
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Planet.prefab
+          projectPath: Assets/Prefabs/Planet.prefab
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Planet.prefab.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Planet.prefab.meta
+          projectPath: Assets/Prefabs/Planet.prefab.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Score.prefab
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Score.prefab
+          projectPath: Assets/Prefabs/Score.prefab
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Score.prefab.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Score.prefab.meta
+          projectPath: Assets/Prefabs/Score.prefab.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Shooting Stars.prefab
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Shooting Stars.prefab
+          projectPath: Assets/Prefabs/Shooting Stars.prefab
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Shooting Stars.prefab.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Shooting Stars.prefab.meta
+          projectPath: Assets/Prefabs/Shooting Stars.prefab.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/SoundTrack.prefab
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/SoundTrack.prefab
+          projectPath: Assets/Prefabs/SoundTrack.prefab
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/SoundTrack.prefab.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/SoundTrack.prefab.meta
+          projectPath: Assets/Prefabs/SoundTrack.prefab.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Space Background.prefab
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Space Background.prefab
+          projectPath: Assets/Prefabs/Space Background.prefab
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Space Background.prefab.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Space Background.prefab.meta
+          projectPath: Assets/Prefabs/Space Background.prefab.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Star.prefab
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Star.prefab
+          projectPath: Assets/Prefabs/Star.prefab
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Prefabs/Star.prefab.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Star.prefab.meta
+          projectPath: Assets/Prefabs/Star.prefab.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Resources.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Resources.meta
+          projectPath: Assets/Resources.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Resources/Star.prefab
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Resources/Star.prefab
+          projectPath: Assets/Resources/Star.prefab
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Resources/Star.prefab.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Resources/Star.prefab.meta
+          projectPath: Assets/Resources/Star.prefab.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scenes.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scenes.meta
+          projectPath: Assets/Scenes.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scenes/Flight.unity
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scenes/Flight.unity
+          projectPath: Assets/Scenes/Flight.unity
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scenes/Flight.unity.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scenes/Flight.unity.meta
+          projectPath: Assets/Scenes/Flight.unity.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts.meta
+          projectPath: Assets/Scripts.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/Asteroid.cs
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Asteroid.cs
+          projectPath: Assets/Scripts/Asteroid.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/Asteroid.cs.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Asteroid.cs.meta
+          projectPath: Assets/Scripts/Asteroid.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/Background.cs
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Background.cs
+          projectPath: Assets/Scripts/Background.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/Background.cs.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Background.cs.meta
+          projectPath: Assets/Scripts/Background.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/GameController.cs
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/GameController.cs
+          projectPath: Assets/Scripts/GameController.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/GameController.cs.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/GameController.cs.meta
+          projectPath: Assets/Scripts/GameController.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/Person.cs
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Person.cs
+          projectPath: Assets/Scripts/Person.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/Person.cs.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Person.cs.meta
+          projectPath: Assets/Scripts/Person.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/Planet.cs
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Planet.cs
+          projectPath: Assets/Scripts/Planet.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/Planet.cs.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Planet.cs.meta
+          projectPath: Assets/Scripts/Planet.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/PlanetPool.cs
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/PlanetPool.cs
+          projectPath: Assets/Scripts/PlanetPool.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/PlanetPool.cs.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/PlanetPool.cs.meta
+          projectPath: Assets/Scripts/PlanetPool.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/RandomHelper.cs
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/RandomHelper.cs
+          projectPath: Assets/Scripts/RandomHelper.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/RandomHelper.cs.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/RandomHelper.cs.meta
+          projectPath: Assets/Scripts/RandomHelper.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/ShootingStars.cs
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/ShootingStars.cs
+          projectPath: Assets/Scripts/ShootingStars.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/ShootingStars.cs.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/ShootingStars.cs.meta
+          projectPath: Assets/Scripts/ShootingStars.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/Star.cs
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Star.cs
+          projectPath: Assets/Scripts/Star.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/Star.cs.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Star.cs.meta
+          projectPath: Assets/Scripts/Star.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/TableService.cs
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/TableService.cs
+          projectPath: Assets/Scripts/TableService.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Scripts/TableService.cs.meta
+          fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/TableService.cs.meta
+          projectPath: Assets/Scripts/TableService.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Flight.sln
+          fullPath: /Users/alexandernigl/Projects/Flight/Flight.sln
+          projectPath: Flight.sln
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Packages/manifest.json
+          fullPath: /Users/alexandernigl/Projects/Flight/Packages/manifest.json
+          projectPath: Packages/manifest.json
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: ProjectSettings/AudioManager.asset
+          fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/AudioManager.asset
+          projectPath: ProjectSettings/AudioManager.asset
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: ProjectSettings/ClusterInputManager.asset
+          fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/ClusterInputManager.asset
+          projectPath: ProjectSettings/ClusterInputManager.asset
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: ProjectSettings/DynamicsManager.asset
+          fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/DynamicsManager.asset
+          projectPath: ProjectSettings/DynamicsManager.asset
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: ProjectSettings/EditorBuildSettings.asset
+          fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/EditorBuildSettings.asset
+          projectPath: ProjectSettings/EditorBuildSettings.asset
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: ProjectSettings/EditorSettings.asset
+          fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/EditorSettings.asset
+          projectPath: ProjectSettings/EditorSettings.asset
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: ProjectSettings/GraphicsSettings.asset
+          fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/GraphicsSettings.asset
+          projectPath: ProjectSettings/GraphicsSettings.asset
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: ProjectSettings/InputManager.asset
+          fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/InputManager.asset
+          projectPath: ProjectSettings/InputManager.asset
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: ProjectSettings/NavMeshAreas.asset
+          fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/NavMeshAreas.asset
+          projectPath: ProjectSettings/NavMeshAreas.asset
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: ProjectSettings/NetworkManager.asset
+          fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/NetworkManager.asset
+          projectPath: ProjectSettings/NetworkManager.asset
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: ProjectSettings/Physics2DSettings.asset
+          fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/Physics2DSettings.asset
+          projectPath: ProjectSettings/Physics2DSettings.asset
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: ProjectSettings/PresetManager.asset
+          fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/PresetManager.asset
+          projectPath: ProjectSettings/PresetManager.asset
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: ProjectSettings/ProjectSettings.asset
+          fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/ProjectSettings.asset
+          projectPath: ProjectSettings/ProjectSettings.asset
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: ProjectSettings/ProjectVersion.txt
+          fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/ProjectVersion.txt
+          projectPath: ProjectSettings/ProjectVersion.txt
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: ProjectSettings/QualitySettings.asset
+          fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/QualitySettings.asset
+          projectPath: ProjectSettings/QualitySettings.asset
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: ProjectSettings/TagManager.asset
+          fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/TagManager.asset
+          projectPath: ProjectSettings/TagManager.asset
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: ProjectSettings/TimeManager.asset
+          fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/TimeManager.asset
+          projectPath: ProjectSettings/TimeManager.asset
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: ProjectSettings/UnityConnectSettings.asset
+          fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/UnityConnectSettings.asset
+          projectPath: ProjectSettings/UnityConnectSettings.asset
+          originalPath: 
+          status: 4
+          staged: 0
+      statusAhead: 0
+      selectedIndex: -1
+    selectedEntry:
+      commitID: 
+      mergeA: 
+      mergeB: 
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
+      description: 
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes: []
+    detailsScroll: {x: 0, y: 0}
+    logEntries:
+    - commitID: 7678b9281bb97265693ce429bceb7d74000bd520
+      mergeA: 
+      mergeB: 
+      authorName: Alexander Nigl
+      authorEmail: theonlynigl@gmail.com
+      commitEmail: theonlynigl@gmail.com
+      commitName: Alexander Nigl
+      summary: Adding project
+      description: Adding project
+      timeString: 2018-12-10T12:55:51.000-06:00
+      commitTimeString: 2018-12-10T12:55:51.000-06:00
+      changes:
+      - path: Assembly-CSharp.csproj
+        fullPath: /Users/alexandernigl/Projects/Flight/Assembly-CSharp.csproj
+        projectPath: Assembly-CSharp.csproj
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK.meta
+        projectPath: Assets/AWSSDK.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.CognitoIdentity.dll
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.CognitoIdentity.dll
+        projectPath: Assets/AWSSDK/AWSSDK.CognitoIdentity.dll
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.mdb
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.mdb
+        projectPath: Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.mdb
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.mdb.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.mdb.meta
+        projectPath: Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.mdb.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.meta
+        projectPath: Assets/AWSSDK/AWSSDK.CognitoIdentity.dll.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.CognitoIdentity.pdb
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.CognitoIdentity.pdb
+        projectPath: Assets/AWSSDK/AWSSDK.CognitoIdentity.pdb
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.CognitoIdentity.pdb.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.CognitoIdentity.pdb.meta
+        projectPath: Assets/AWSSDK/AWSSDK.CognitoIdentity.pdb.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.Core.dll
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.Core.dll
+        projectPath: Assets/AWSSDK/AWSSDK.Core.dll
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.Core.dll.mdb
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.Core.dll.mdb
+        projectPath: Assets/AWSSDK/AWSSDK.Core.dll.mdb
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.Core.dll.mdb.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.Core.dll.mdb.meta
+        projectPath: Assets/AWSSDK/AWSSDK.Core.dll.mdb.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.Core.dll.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.Core.dll.meta
+        projectPath: Assets/AWSSDK/AWSSDK.Core.dll.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.Core.pdb
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.Core.pdb
+        projectPath: Assets/AWSSDK/AWSSDK.Core.pdb
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.Core.pdb.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.Core.pdb.meta
+        projectPath: Assets/AWSSDK/AWSSDK.Core.pdb.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.DynamoDBv2.dll
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.DynamoDBv2.dll
+        projectPath: Assets/AWSSDK/AWSSDK.DynamoDBv2.dll
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.mdb
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.mdb
+        projectPath: Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.mdb
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.mdb.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.mdb.meta
+        projectPath: Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.mdb.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.meta
+        projectPath: Assets/AWSSDK/AWSSDK.DynamoDBv2.dll.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.DynamoDBv2.pdb
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.DynamoDBv2.pdb
+        projectPath: Assets/AWSSDK/AWSSDK.DynamoDBv2.pdb
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.DynamoDBv2.pdb.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.DynamoDBv2.pdb.meta
+        projectPath: Assets/AWSSDK/AWSSDK.DynamoDBv2.pdb.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.SecurityToken.dll
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.SecurityToken.dll
+        projectPath: Assets/AWSSDK/AWSSDK.SecurityToken.dll
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.SecurityToken.dll.mdb
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.SecurityToken.dll.mdb
+        projectPath: Assets/AWSSDK/AWSSDK.SecurityToken.dll.mdb
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.SecurityToken.dll.mdb.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.SecurityToken.dll.mdb.meta
+        projectPath: Assets/AWSSDK/AWSSDK.SecurityToken.dll.mdb.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.SecurityToken.dll.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.SecurityToken.dll.meta
+        projectPath: Assets/AWSSDK/AWSSDK.SecurityToken.dll.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.SecurityToken.pdb
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.SecurityToken.pdb
+        projectPath: Assets/AWSSDK/AWSSDK.SecurityToken.pdb
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/AWSSDK/AWSSDK.SecurityToken.pdb.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/AWSSDK/AWSSDK.SecurityToken.pdb.meta
+        projectPath: Assets/AWSSDK/AWSSDK.SecurityToken.pdb.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art.meta
+        projectPath: Assets/Art.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/Icon.png
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/Icon.png
+        projectPath: Assets/Art/Icon.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/Icon.png.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/Icon.png.meta
+        projectPath: Assets/Art/Icon.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/Icon.psd
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/Icon.psd
+        projectPath: Assets/Art/Icon.psd
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/Icon.psd.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/Icon.psd.meta
+        projectPath: Assets/Art/Icon.psd.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/ParticleFireball.mat
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/ParticleFireball.mat
+        projectPath: Assets/Art/ParticleFireball.mat
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/ParticleFireball.mat.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/ParticleFireball.mat.meta
+        projectPath: Assets/Art/ParticleFireball.mat.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/asteroid.png
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/asteroid.png
+        projectPath: Assets/Art/asteroid.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/asteroid.png.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/asteroid.png.meta
+        projectPath: Assets/Art/asteroid.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/asteroid.psd
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/asteroid.psd
+        projectPath: Assets/Art/asteroid.psd
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/asteroid.psd.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/asteroid.psd.meta
+        projectPath: Assets/Art/asteroid.psd.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/background.png
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/background.png
+        projectPath: Assets/Art/background.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/background.png.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/background.png.meta
+        projectPath: Assets/Art/background.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/ball.png
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/ball.png
+        projectPath: Assets/Art/ball.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/ball.png.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/ball.png.meta
+        projectPath: Assets/Art/ball.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/planet.jpg
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/planet.jpg
+        projectPath: Assets/Art/planet.jpg
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/planet.jpg.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/planet.jpg.meta
+        projectPath: Assets/Art/planet.jpg.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/planet.png
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/planet.png
+        projectPath: Assets/Art/planet.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/planet.png.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/planet.png.meta
+        projectPath: Assets/Art/planet.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/shootingstar.png
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/shootingstar.png
+        projectPath: Assets/Art/shootingstar.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/shootingstar.png.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/shootingstar.png.meta
+        projectPath: Assets/Art/shootingstar.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/shootingstar.psd
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/shootingstar.psd
+        projectPath: Assets/Art/shootingstar.psd
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Art/shootingstar.psd.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Art/shootingstar.psd.meta
+        projectPath: Assets/Art/shootingstar.psd.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Audio.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio.meta
+        projectPath: Assets/Audio.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Audio/Background.mp3
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Background.mp3
+        projectPath: Assets/Audio/Background.mp3
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Audio/Background.mp3.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Background.mp3.meta
+        projectPath: Assets/Audio/Background.mp3.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Audio/Background.wav
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Background.wav
+        projectPath: Assets/Audio/Background.wav
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Audio/Background.wav.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Background.wav.meta
+        projectPath: Assets/Audio/Background.wav.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Audio/Collision.flac
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Collision.flac
+        projectPath: Assets/Audio/Collision.flac
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Audio/Collision.flac.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Collision.flac.meta
+        projectPath: Assets/Audio/Collision.flac.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Audio/Interstellar.mp3
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Interstellar.mp3
+        projectPath: Assets/Audio/Interstellar.mp3
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Audio/Interstellar.mp3.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Interstellar.mp3.meta
+        projectPath: Assets/Audio/Interstellar.mp3.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Audio/Shoot.wav
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Shoot.wav
+        projectPath: Assets/Audio/Shoot.wav
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Audio/Shoot.wav.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Audio/Shoot.wav.meta
+        projectPath: Assets/Audio/Shoot.wav.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples.meta
+        projectPath: Assets/Examples.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/DynamoDBBaseExample.cs
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/DynamoDBBaseExample.cs
+        projectPath: Assets/Examples/DynamoDBBaseExample.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/DynamoDBBaseExample.cs.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/DynamoDBBaseExample.cs.meta
+        projectPath: Assets/Examples/DynamoDBBaseExample.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/DynamoDBExample.cs
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/DynamoDBExample.cs
+        projectPath: Assets/Examples/DynamoDBExample.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/DynamoDBExample.cs.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/DynamoDBExample.cs.meta
+        projectPath: Assets/Examples/DynamoDBExample.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/DynamoDBExample.unity
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/DynamoDBExample.unity
+        projectPath: Assets/Examples/DynamoDBExample.unity
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/DynamoDBExample.unity.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/DynamoDBExample.unity.meta
+        projectPath: Assets/Examples/DynamoDBExample.unity.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/HighLevelExample.unity
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/HighLevelExample.unity
+        projectPath: Assets/Examples/HighLevelExample.unity
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/HighLevelExample.unity.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/HighLevelExample.unity.meta
+        projectPath: Assets/Examples/HighLevelExample.unity.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/HighLevelTableExample.cs
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/HighLevelTableExample.cs
+        projectPath: Assets/Examples/HighLevelTableExample.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/HighLevelTableExample.cs.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/HighLevelTableExample.cs.meta
+        projectPath: Assets/Examples/HighLevelTableExample.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/License.txt
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/License.txt
+        projectPath: Assets/Examples/License.txt
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/License.txt.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/License.txt.meta
+        projectPath: Assets/Examples/License.txt.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/LowLevelDynamoDBExample.unity
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/LowLevelDynamoDBExample.unity
+        projectPath: Assets/Examples/LowLevelDynamoDBExample.unity
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/LowLevelDynamoDBExample.unity.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/LowLevelDynamoDBExample.unity.meta
+        projectPath: Assets/Examples/LowLevelDynamoDBExample.unity.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/LowLevelTableExample.cs
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/LowLevelTableExample.cs
+        projectPath: Assets/Examples/LowLevelTableExample.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/LowLevelTableExample.cs.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/LowLevelTableExample.cs.meta
+        projectPath: Assets/Examples/LowLevelTableExample.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/TableQueryAndScanExample.cs
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/TableQueryAndScanExample.cs
+        projectPath: Assets/Examples/TableQueryAndScanExample.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/TableQueryAndScanExample.cs.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/TableQueryAndScanExample.cs.meta
+        projectPath: Assets/Examples/TableQueryAndScanExample.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/TableQueryAndScanExample.unity
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/TableQueryAndScanExample.unity
+        projectPath: Assets/Examples/TableQueryAndScanExample.unity
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/TableQueryAndScanExample.unity.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/TableQueryAndScanExample.unity.meta
+        projectPath: Assets/Examples/TableQueryAndScanExample.unity.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/readme.md
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/readme.md
+        projectPath: Assets/Examples/readme.md
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Examples/readme.md.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Examples/readme.md.meta
+        projectPath: Assets/Examples/readme.md.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Plugins.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins.meta
+        projectPath: Assets/Plugins.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Plugins/Android.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/Android.meta
+        projectPath: Assets/Plugins/Android.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Plugins/Android/AndroidManifest.xml
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/Android/AndroidManifest.xml
+        projectPath: Assets/Plugins/Android/AndroidManifest.xml
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Plugins/Android/AndroidManifest.xml.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/Android/AndroidManifest.xml.meta
+        projectPath: Assets/Plugins/Android/AndroidManifest.xml.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Plugins/Android/libsqlite3.so
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/Android/libsqlite3.so
+        projectPath: Assets/Plugins/Android/libsqlite3.so
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Plugins/Android/libsqlite3.so.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/Android/libsqlite3.so.meta
+        projectPath: Assets/Plugins/Android/libsqlite3.so.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Plugins/libsqlite3.so
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/libsqlite3.so
+        projectPath: Assets/Plugins/libsqlite3.so
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Plugins/libsqlite3.so.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/libsqlite3.so.meta
+        projectPath: Assets/Plugins/libsqlite3.so.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Plugins/x86_64.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/x86_64.meta
+        projectPath: Assets/Plugins/x86_64.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Plugins/x86_64/sqlite3.dll
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/x86_64/sqlite3.dll
+        projectPath: Assets/Plugins/x86_64/sqlite3.dll
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Plugins/x86_64/sqlite3.dll.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Plugins/x86_64/sqlite3.dll.meta
+        projectPath: Assets/Plugins/x86_64/sqlite3.dll.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs.meta
+        projectPath: Assets/Prefabs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Asteroid.prefab
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Asteroid.prefab
+        projectPath: Assets/Prefabs/Asteroid.prefab
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Asteroid.prefab.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Asteroid.prefab.meta
+        projectPath: Assets/Prefabs/Asteroid.prefab.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Canvas.prefab
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Canvas.prefab
+        projectPath: Assets/Prefabs/Canvas.prefab
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Canvas.prefab.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Canvas.prefab.meta
+        projectPath: Assets/Prefabs/Canvas.prefab.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/GameController.prefab
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/GameController.prefab
+        projectPath: Assets/Prefabs/GameController.prefab
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/GameController.prefab.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/GameController.prefab.meta
+        projectPath: Assets/Prefabs/GameController.prefab.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Main Camera.prefab
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Main Camera.prefab
+        projectPath: Assets/Prefabs/Main Camera.prefab
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Main Camera.prefab.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Main Camera.prefab.meta
+        projectPath: Assets/Prefabs/Main Camera.prefab.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Particle System.prefab
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Particle System.prefab
+        projectPath: Assets/Prefabs/Particle System.prefab
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Particle System.prefab.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Particle System.prefab.meta
+        projectPath: Assets/Prefabs/Particle System.prefab.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Planet.prefab
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Planet.prefab
+        projectPath: Assets/Prefabs/Planet.prefab
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Planet.prefab.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Planet.prefab.meta
+        projectPath: Assets/Prefabs/Planet.prefab.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Score.prefab
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Score.prefab
+        projectPath: Assets/Prefabs/Score.prefab
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Score.prefab.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Score.prefab.meta
+        projectPath: Assets/Prefabs/Score.prefab.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Shooting Stars.prefab
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Shooting Stars.prefab
+        projectPath: Assets/Prefabs/Shooting Stars.prefab
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Shooting Stars.prefab.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Shooting Stars.prefab.meta
+        projectPath: Assets/Prefabs/Shooting Stars.prefab.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/SoundTrack.prefab
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/SoundTrack.prefab
+        projectPath: Assets/Prefabs/SoundTrack.prefab
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/SoundTrack.prefab.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/SoundTrack.prefab.meta
+        projectPath: Assets/Prefabs/SoundTrack.prefab.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Space Background.prefab
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Space Background.prefab
+        projectPath: Assets/Prefabs/Space Background.prefab
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Space Background.prefab.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Space Background.prefab.meta
+        projectPath: Assets/Prefabs/Space Background.prefab.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Star.prefab
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Star.prefab
+        projectPath: Assets/Prefabs/Star.prefab
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Prefabs/Star.prefab.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Prefabs/Star.prefab.meta
+        projectPath: Assets/Prefabs/Star.prefab.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Resources.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Resources.meta
+        projectPath: Assets/Resources.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Resources/Star.prefab
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Resources/Star.prefab
+        projectPath: Assets/Resources/Star.prefab
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Resources/Star.prefab.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Resources/Star.prefab.meta
+        projectPath: Assets/Resources/Star.prefab.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scenes.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scenes.meta
+        projectPath: Assets/Scenes.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scenes/Flight.unity
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scenes/Flight.unity
+        projectPath: Assets/Scenes/Flight.unity
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scenes/Flight.unity.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scenes/Flight.unity.meta
+        projectPath: Assets/Scenes/Flight.unity.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts.meta
+        projectPath: Assets/Scripts.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/Asteroid.cs
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Asteroid.cs
+        projectPath: Assets/Scripts/Asteroid.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/Asteroid.cs.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Asteroid.cs.meta
+        projectPath: Assets/Scripts/Asteroid.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/Background.cs
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Background.cs
+        projectPath: Assets/Scripts/Background.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/Background.cs.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Background.cs.meta
+        projectPath: Assets/Scripts/Background.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/GameController.cs
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/GameController.cs
+        projectPath: Assets/Scripts/GameController.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/GameController.cs.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/GameController.cs.meta
+        projectPath: Assets/Scripts/GameController.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/Person.cs
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Person.cs
+        projectPath: Assets/Scripts/Person.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/Person.cs.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Person.cs.meta
+        projectPath: Assets/Scripts/Person.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/Planet.cs
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Planet.cs
+        projectPath: Assets/Scripts/Planet.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/Planet.cs.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Planet.cs.meta
+        projectPath: Assets/Scripts/Planet.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/PlanetPool.cs
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/PlanetPool.cs
+        projectPath: Assets/Scripts/PlanetPool.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/PlanetPool.cs.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/PlanetPool.cs.meta
+        projectPath: Assets/Scripts/PlanetPool.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/RandomHelper.cs
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/RandomHelper.cs
+        projectPath: Assets/Scripts/RandomHelper.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/RandomHelper.cs.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/RandomHelper.cs.meta
+        projectPath: Assets/Scripts/RandomHelper.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/ShootingStars.cs
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/ShootingStars.cs
+        projectPath: Assets/Scripts/ShootingStars.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/ShootingStars.cs.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/ShootingStars.cs.meta
+        projectPath: Assets/Scripts/ShootingStars.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/Star.cs
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Star.cs
+        projectPath: Assets/Scripts/Star.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/Star.cs.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/Star.cs.meta
+        projectPath: Assets/Scripts/Star.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/TableService.cs
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/TableService.cs
+        projectPath: Assets/Scripts/TableService.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Scripts/TableService.cs.meta
+        fullPath: /Users/alexandernigl/Projects/Flight/Assets/Scripts/TableService.cs.meta
+        projectPath: Assets/Scripts/TableService.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Flight.sln
+        fullPath: /Users/alexandernigl/Projects/Flight/Flight.sln
+        projectPath: Flight.sln
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Packages/manifest.json
+        fullPath: /Users/alexandernigl/Projects/Flight/Packages/manifest.json
+        projectPath: Packages/manifest.json
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: ProjectSettings/AudioManager.asset
+        fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/AudioManager.asset
+        projectPath: ProjectSettings/AudioManager.asset
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: ProjectSettings/ClusterInputManager.asset
+        fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/ClusterInputManager.asset
+        projectPath: ProjectSettings/ClusterInputManager.asset
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: ProjectSettings/DynamicsManager.asset
+        fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/DynamicsManager.asset
+        projectPath: ProjectSettings/DynamicsManager.asset
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: ProjectSettings/EditorBuildSettings.asset
+        fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/EditorBuildSettings.asset
+        projectPath: ProjectSettings/EditorBuildSettings.asset
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: ProjectSettings/EditorSettings.asset
+        fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/EditorSettings.asset
+        projectPath: ProjectSettings/EditorSettings.asset
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: ProjectSettings/GraphicsSettings.asset
+        fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/GraphicsSettings.asset
+        projectPath: ProjectSettings/GraphicsSettings.asset
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: ProjectSettings/InputManager.asset
+        fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/InputManager.asset
+        projectPath: ProjectSettings/InputManager.asset
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: ProjectSettings/NavMeshAreas.asset
+        fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/NavMeshAreas.asset
+        projectPath: ProjectSettings/NavMeshAreas.asset
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: ProjectSettings/NetworkManager.asset
+        fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/NetworkManager.asset
+        projectPath: ProjectSettings/NetworkManager.asset
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: ProjectSettings/Physics2DSettings.asset
+        fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/Physics2DSettings.asset
+        projectPath: ProjectSettings/Physics2DSettings.asset
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: ProjectSettings/PresetManager.asset
+        fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/PresetManager.asset
+        projectPath: ProjectSettings/PresetManager.asset
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: ProjectSettings/ProjectSettings.asset
+        fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/ProjectSettings.asset
+        projectPath: ProjectSettings/ProjectSettings.asset
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: ProjectSettings/ProjectVersion.txt
+        fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/ProjectVersion.txt
+        projectPath: ProjectSettings/ProjectVersion.txt
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: ProjectSettings/QualitySettings.asset
+        fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/QualitySettings.asset
+        projectPath: ProjectSettings/QualitySettings.asset
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: ProjectSettings/TagManager.asset
+        fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/TagManager.asset
+        projectPath: ProjectSettings/TagManager.asset
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: ProjectSettings/TimeManager.asset
+        fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/TimeManager.asset
+        projectPath: ProjectSettings/TimeManager.asset
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: ProjectSettings/UnityConnectSettings.asset
+        fullPath: /Users/alexandernigl/Projects/Flight/ProjectSettings/UnityConnectSettings.asset
+        projectPath: ProjectSettings/UnityConnectSettings.asset
+        originalPath: 
+        status: 4
+        staged: 0
+    statusAhead: 0
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 0
+      isCheckable: 0
+      isUsingGlobalSelection: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+    lastLogChangedEvent:
+      updatedTimeString: 2018-12-11T12:58:27.664-06:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 2018-12-11T12:59:18.394-06:00
+      cacheType: 4
+  settingsView:
+    gitPathView:
+      gitPath: /usr/bin/git
+      gitLfsPath: /Users/alexandernigl/Library/Application Support/GitHubUnity/git-lfs/git-lfs
+      errorMessage: 
+      resetToBundled: 0
+      resetToSystem: 0
+      changingManually: 0
+    hasRemote: 1
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2018-12-11T12:54:09.294-06:00
+      cacheType: 1
+    metricsEnabled: 1
+    newRepositoryRemoteUrl: https://github.com/TheRealNigl/BossBattle1
+    repositoryRemoteName: origin
+    repositoryRemoteUrl: https://github.com/TheRealNigl/BossBattle1
+    scroll: {x: 0, y: 0}
+    userSettingsView:
+      gitName: Alexander Nigl
+      gitEmail: theonlynigl@gmail.com
+      newGitName: Alexander Nigl
+      newGitEmail: theonlynigl@gmail.com
+      needsSaving: 0
+      lastCheckUserChangedEvent:
+        updatedTimeString: 2018-12-11T12:53:48.006-06:00
+        cacheType: 7
+    webTimeout: 3000
+    gitTimeout: 5000
+  locksView:
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    currentUserHasUpdate: 0
+    locksControl:
+      scroll: {x: 0, y: 0}
+      gitLockEntries: []
+      assets:
+        keys: []
+        values: []
+      gitStatusDictionary:
+        keys: []
+        values: []
+      selectedEntry:
+        gitLock:
+          id: 
+          path: 
+          owner:
+            name: 
+            email: 
+          lockedAtString: 
+        gitFileStatus: 0
+        lockedAt: 1 Jan 0001, 00:00
+    lastLocksChangedEvent:
+      updatedTimeString: 2018-12-11T12:53:29.721-06:00
+      cacheType: 6
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 2018-12-11T12:53:29.721-06:00
+      cacheType: 6
+    lastUserChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
+    lockedFiles: []
+    gitStatusEntries: []
+    currentUsername: TheRealNigl
+    unlockFileMenuContent:
+      m_Text: Release Lock
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    forceUnlockFileMenuContent:
+      m_Text: Release Lock (forced)
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: RealGame
+  currentRemoteUrl: https://github.com/TheRealNigl/BossBattle1
+  statusAhead: 0
+  statusBehind: 0
+  hasItemsToCommit: 0
+  isTrackingRemoteBranch: 0
+  currentBranchContent:
+    m_Text: RealGame
+    m_Image: {fileID: 0}
+    m_Tooltip: Active branch
+  currentRemoteUrlContent:
+    m_Text: https://github.com/TheRealNigl/BossBattle1
+    m_Image: {fileID: 0}
+    m_Tooltip: Url of the origin remote
+  lastCurrentBranchAndRemoteChangedEvent:
+    updatedTimeString: 2018-12-11T13:00:40.969-06:00
+    cacheType: 1
+  lastTrackingStatusChangedEvent:
+    updatedTimeString: 2018-12-11T13:00:38.815-06:00
+    cacheType: 4
+  lastStatusEntriesChangedEvent:
+    updatedTimeString: 2018-12-11T13:00:38.811-06:00
+    cacheType: 5
+  pullButtonContent:
+    m_Text: Pull
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  pushButtonContent:
+    m_Text: Push
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  refreshButtonContent:
+    m_Text: Refresh
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  fetchButtonContent:
+    m_Text: Fetch
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  repositoryProgressValue: 1
+  repositoryProgressMessage: Failed to push
+  appManagerProgressValue: 0
+  appManagerProgressMessage: 
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 232
+    y: 49
+    width: 929
+    height: 544
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_SceneLighting: 0
+  lastFramingTime: 2740.789057970047
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 464.5, y: 194.1, z: 0}
+    speed: 2
+    m_Value: {x: 464.5, y: 194.1, z: 0}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_SceneViewState:
+    showFog: 1
+    showMaterialUpdate: 0
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+  grid:
+    xGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    yGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 424.11063
+    speed: 2
+    m_Value: 424.11063
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_ShowGlobalGrid: 1
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 49
+    width: 228
+    height: 544
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 1667fcffce67fcff1869fcff7ea7fcff34a8fcff7ea9fcffa6c6fdff484bfeff7c9bfeff3ed6ffff50d8ffff62dbffff94dbffff44e1ffffc0ebffff00000000a65f0000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: Results
+      m_OriginalName: Results
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 24518
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 0
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 8}
+    m_SearchString: 
+  m_ExpandedScenes:
+  - IWannaBeTheJuice
+  m_CurrenRootInstanceID: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentSortingName: TransformSorting
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 232
+    y: 94
+    width: 929
+    height: 514
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_MaximizeOnPlay: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_TargetDisplay: 0
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -464.5
+    m_HBaseRangeMax: 464.5
+    m_VBaseRangeMin: -248.5
+    m_VBaseRangeMax: 248.5
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 929
+      height: 497
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 464.5, y: 248.5}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -464.5
+      y: -248.5
+      width: 929
+      height: 497
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 929, y: 514}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000100000100
+  m_XRRenderMode: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 2048, y: 2048}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 468
+    y: 181
+    width: 973
+    height: 501
+  m_PersistentViewDataDictionary: {fileID: 0}
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 614
+    width: 1161
+    height: 264
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_ScenePaths: []
+    m_ShowAllHits: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Art
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Art
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: /Users/alexandernigl/Projects/Flight
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 71}
+    m_SelectedIDs: e8350000
+    m_LastClickedID: 13800
+    m_ExpandedIDs: 000000009833000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 10}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000f68fffff5e2b000000000000322a00003033000002330000e6320000122d0000c8300000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_DirectoriesAreaWidth: 115
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 614
+    width: 1161
+    height: 264
+  m_PersistentViewDataDictionary: {fileID: 0}
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1165
+    y: 49
+    width: 275
+    height: 829
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewResizer:
+    m_CachedPref: 160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_PreviewWindow: {fileID: 0}
