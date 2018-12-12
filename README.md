@@ -1,6 +1,13 @@
 # FlightGame
-Boss Battle 1
 
-Game for Game Engine Scripting
+As an asteroid, fly through space wandering  the vast regions. 
 
-Flappy Bird Style with AWS Backend
+Get the highest scores and see yourself on the leaderboards!
+
+
+Install instructions
+Make sure to update and list the table
+
+Find the full build below:
+
+https://therealnigl.itch.io/flight
