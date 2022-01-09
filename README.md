@@ -1,14 +1,12 @@
 # FlightGame
 
+As an asteroid, fly through space wandering the vast regions.
 
+Leaderboard services are disabled.
 
-As an asteroid, fly through space wandering  the vast regions. 
-
-Get the highest scores and see yourself on the leaderboards!
-
-
-Install instructions
-Make sure to update and list the table
+New features coming soon:
+Addition of galaxy levels.
+Soon to re-release Leaderboards, "Get the highest scores and see yourself on the leaderboards!"
 
 Find the full build below:
 
