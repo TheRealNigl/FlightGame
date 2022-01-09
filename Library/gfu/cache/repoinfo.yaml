@@ -4,34 +4,35 @@
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1109517887, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Script: {fileID: 1109517887, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-12-11T20:56:33.503-06:00
-  initializedAtString: 2018-12-11T20:56:33.503-06:00
+  lastUpdatedAtString: 2022-01-08T20:59:28.952-05:00
+  initializedAtString: 2022-01-08T18:10:21.012-05:00
   currentGitRemote:
     name: origin
-    url: https://github.com/TheRealNigl/Flight
+    url: https://github.com/TheRealNigl/FlightGame
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
-    name: Game
-    tracking: 
+    name: master
+    tracking: origin/master
   currentConfigBranch:
-    name: Game
+    name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/TheRealNigl/FlightGame
+    trackingBranch: master
   currentConfigRemote:
     name: origin
-    url: https://github.com/TheRealNigl/Flight
+    url: https://github.com/TheRealNigl/FlightGame
   currentHead: 

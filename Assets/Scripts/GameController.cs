@@ -45,6 +45,7 @@ public class GameController : MonoBehaviour
         InputField1.SetActive(false);
         ResultsText.SetActive(false);
         GetComponent<PlanetPool>().SpawnObjects();
+        GetComponent<ShootingStars>().SpawnObjects();
     }
 
     public void PlayerScored() {
@@ -54,6 +55,7 @@ public class GameController : MonoBehaviour
 
     public void PlayerDied() {
         GetComponent<PlanetPool>().Despawn();
+        GetComponent<ShootingStars>().Despawn();
         scoreText.text = "Score: " + Score.ToString();
         GameOvertext.SetActive(true);
         Button1.SetActive(true);

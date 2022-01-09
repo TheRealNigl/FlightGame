@@ -2,21 +2,34 @@
 
 public class Star: MonoBehaviour
 {
-    private Rigidbody2D Body { get; set; }
+    public PlanetStates PlanetStates;
+    private Rigidbody2D body;
 
-    private void Awake() {
-        Body = GetComponent<Rigidbody2D>();
+    public void Start()
+    {
+        PlanetStates = PlanetStates.HasNotScored;
+        body = GetComponent<Rigidbody2D>();
+        body.velocity = new Vector2(GameController.Instance.scrollSpeed, 0);
     }
 
-    public void AddForceWithDirection(Vector2 direction) {
-        Body.AddForce(direction);
+    public void PlayParticle()
+    {
+        GetComponent<ParticleSystem>().Play();
     }
 
-    public void AddForceWithDirectionAndSpeed(Vector2 direction, float speed) {
-        Body.AddForce(direction * speed);
-    }
-
-    private void SetPosition(){
-        Body.position = Camera.main.ScreenToWorldPoint(Vector3.zero);
+    public void Update()
+    {
+        if (PlanetStates == PlanetStates.HasNotScored && transform.position.x < GameObject.FindGameObjectWithTag("Player").transform.position.x)
+        {
+            PlanetStates = PlanetStates.Scored;
+        }
+        switch (PlanetStates)
+        {
+            case PlanetStates.Scored:
+                GameController.Instance.PlayerScored();
+                PlanetStates = PlanetStates.CannotScore;
+                Destroy(this.gameObject);
+                break;
+        }
     }
 }
