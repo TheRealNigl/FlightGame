@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2022-01-08T20:59:28.958-05:00
-  initializedAtString: 2022-01-08T19:08:06.798-05:00
+  lastUpdatedAtString: 2022-02-12T11:59:46.876-05:00
+  initializedAtString: 2022-02-12T11:31:14.266-05:00
   localBranches:
   - name: master
     tracking: origin/master
   remoteBranches:
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
@@ -44,9 +46,15 @@ MonoBehaviour:
     subKeys:
     - Values:
       - HEAD
+      - master
     subKeyValues:
     - Values:
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/TheRealNigl/FlightGame
+        trackingBranch: 
+      - name: master
         remote:
           name: origin
           url: https://github.com/TheRealNigl/FlightGame

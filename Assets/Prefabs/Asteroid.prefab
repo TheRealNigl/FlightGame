@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 50607235864308856}
   - component: {fileID: 58280325794417386}
   - component: {fileID: 82826826168810978}
-  - component: {fileID: 114189724435638448}
+  - component: {fileID: 3303101548866517589}
   m_Layer: 0
   m_Name: Asteroid
   m_TagString: Player
@@ -217,7 +217,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &114189724435638448
+--- !u!114 &3303101548866517589
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -226,6 +226,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1374950393685072}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb53b5e8b75d544aea106b4a1ee2fa05, type: 3}
+  m_Script: {fileID: 11500000, guid: 6e9732477c78af24792af8964dbc8795, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

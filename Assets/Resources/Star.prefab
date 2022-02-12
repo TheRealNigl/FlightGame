@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4396669686390762}
   - component: {fileID: 212375527755303168}
   - component: {fileID: 82414153933603246}
-  - component: {fileID: 114852342876633274}
   - component: {fileID: -4990501253183764651}
   - component: {fileID: -8965390198521277001}
+  - component: {fileID: 6100723450899064882}
   m_Layer: 0
   m_Name: Star
   m_TagString: Star
@@ -180,19 +180,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &114852342876633274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1288531047111746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7ccd21fbcb764b619904598b20ad56a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlanetStates: 0
 --- !u!50 &-4990501253183764651
 Rigidbody2D:
   serializedVersion: 4
@@ -240,3 +227,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &6100723450899064882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288531047111746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acddb1854188a5e4489de16fd3716ff0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlanetStates: 0

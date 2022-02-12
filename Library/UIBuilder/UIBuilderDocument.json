@@ -1,0 +1,54 @@
+{
+    "MonoBehaviour": {
+        "m_Enabled": true,
+        "m_EditorHideFlags": 0,
+        "m_Name": "BuilderDocument",
+        "m_EditorClassIdentifier": "",
+        "m_CurrentCanvasTheme": 1,
+        "m_CodePreviewVisible": true,
+        "m_OpenUXMLFiles": [
+            {
+                "m_OpenUSSFiles": [],
+                "m_VisualTreeAssetBackup": {
+                    "instanceID": 0
+                },
+                "m_OpenendVisualTreeAssetOldPath": "Assets/UI/flight.uxml",
+                "m_VisualTreeAsset": {
+                    "fileID": 9197481963319205126,
+                    "guid": "09f5aeccd233caf4aabdd906691082a2",
+                    "type": 3
+                },
+                "m_ActiveStyleSheet": {
+                    "instanceID": 0
+                },
+                "m_Settings": {
+                    "UxmlGuid": "09f5aeccd233caf4aabdd906691082a2",
+                    "UxmlPath": "Assets/UI/flight.uxml",
+                    "CanvasX": 0,
+                    "CanvasY": 0,
+                    "CanvasWidth": 350,
+                    "CanvasHeight": 423,
+                    "ZoomScale": 1.0,
+                    "PanOffset": {
+                        "x": 70.30000305175781,
+                        "y": 20.599994659423829
+                    },
+                    "CanvasBackgroundOpacity": 1.0,
+                    "CanvasBackgroundMode": 0,
+                    "CanvasBackgroundColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 255.0
+                    },
+                    "CanvasBackgroundImage": {
+                        "instanceID": 0
+                    },
+                    "CanvasBackgroundImageScaleMode": 1,
+                    "CanvasBackgroundCameraName": ""
+                }
+            }
+        ],
+        "m_ActiveOpenUXMLFileIndex": 0
+    }
+}

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 198323099706381556}
   - component: {fileID: 82255008352108332}
   - component: {fileID: 58399094223422002}
-  - component: {fileID: 114554448603018106}
+  - component: {fileID: 8757032152274255885}
   m_Layer: 0
   m_Name: Planet
   m_TagString: Untagged
@@ -4998,7 +4998,7 @@ CircleCollider2D:
   m_Offset: {x: -0.04, y: 0}
   serializedVersion: 2
   m_Radius: 1.86
---- !u!114 &114554448603018106
+--- !u!114 &8757032152274255885
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5007,7 +5007,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1657934780408496}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a290064d0edb4b43a754d50441ebb84, type: 3}
+  m_Script: {fileID: 11500000, guid: d171e01ebca051145b1a93f54b4484f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   PlanetStates: 0
