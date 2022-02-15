@@ -14,11 +14,6 @@ public class GameController : MonoBehaviour
     /// <summary>
     /// 
     /// </summary>
-    private bool GameStart = false;
-
-    /// <summary>
-    /// 
-    /// </summary>
     public static int Score;
 
     /// <summary>

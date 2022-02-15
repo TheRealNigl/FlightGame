@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 212375527755303168}
   - component: {fileID: 82414153933603246}
   - component: {fileID: -4990501253183764651}
-  - component: {fileID: -8965390198521277001}
   - component: {fileID: 6100723450899064882}
+  - component: {fileID: 137765997946857068}
   m_Layer: 0
   m_Name: Star
   m_TagString: Star
@@ -201,32 +201,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &-8965390198521277001
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1288531047111746}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.92, y: 6}
-    newSize: {x: 7.92, y: 6}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!114 &6100723450899064882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,3 +214,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlanetStates: 0
+--- !u!68 &137765997946857068
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288531047111746}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 3.9644966, y: 0.02454567}
+  - {x: 1.7100391, y: -0.9380909}
+  - {x: 0.8907529, y: -2.8978722}
+  - {x: -1.0461276, y: -1.7199644}
+  - {x: -3.8365202, y: -1.7825451}
+  - {x: -2.9903667, y: -0.0030878782}
+  - {x: -3.844343, y: 1.8701581}
+  - {x: -0.9576405, y: 1.7419167}
+  - {x: 0.9093488, y: 2.9451282}
+  - {x: 1.8109354, y: 0.8905956}
+  - {x: 3.96, y: 0}
+  - {x: 3.96, y: 0}
+  - {x: 3.96, y: 0}
+  - {x: 3.96, y: 0}
+  - {x: 3.96, y: 0}
+  - {x: 3.96, y: 0}
+  - {x: 3.96, y: 0}
+  - {x: 3.96, y: 0}
+  - {x: 3.96, y: 0}
