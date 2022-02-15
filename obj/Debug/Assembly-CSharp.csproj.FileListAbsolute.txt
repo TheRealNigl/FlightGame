@@ -1,2 +1,0 @@
-A:\GitHub Projects\FlightGame\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
-A:\GitHub Projects\FlightGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
