@@ -1,26 +1,25 @@
-﻿using UnityEditor;
+﻿using Assets.Editor;
+using UnityEditor;
 using UnityEngine;
 
-namespace Assets.Editor
+public class BuildMage : EditorWindow
 {
-    public class BuildMage : EditorWindow
+    [MenuItem("Tools/Build Mage")]
+    private static void Init()
     {
-        [MenuItem("Tools/Build Mage")]
-        static void init()
-        {
-            // Get existing open window or if none, make a new one:
-            BuildMage window = (BuildMage)GetWindow(typeof(BuildMage));
-            window.Show();
-        }
+        BuildMage window = (BuildMage)EditorWindow.GetWindow(typeof(BuildMage));
+        window.Show();
+    }
 
-        void OnGui()
+    private void OnGui()
+    {
+        GUILayout.FlexibleSpace();
+        GUILayout.BeginHorizontal();
+        EditorGUILayout.TextField("Hello");
+        if (GUILayout.Button("Build"))
         {
-            EditorGUILayout.BeginHorizontal();
-            if (GUILayout.Button("Build"))
-            {
-                Build.build.BuildProject();
-            }
-            EditorGUILayout.EndHorizontal();
+            Build.build.BuildProject();
         }
+        GUILayout.EndHorizontal();
     }
 }
