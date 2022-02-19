@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 61224133336348684}
   - component: {fileID: 6613209321996914830}
   - component: {fileID: 720274480150712963}
+  - component: {fileID: 3659595720271143976}
   m_Layer: 0
   m_Name: Space Background
   m_TagString: Background
@@ -48,6 +49,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -135,3 +138,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StarTwinklePrefab: {fileID: 2755068792562863576, guid: d8429cac785537b45a91dd5da11caef2,
     type: 3}
+--- !u!114 &3659595720271143976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629964984101950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b22c7ab76e8ece8408baa5ef2d9aba12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 1629964984101950}

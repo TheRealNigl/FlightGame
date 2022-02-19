@@ -11,14 +11,13 @@ public class BuildMage : EditorWindow
         window.Show();
     }
 
-    private void OnGui()
+    private static void OnGui()
     {
-        GUILayout.FlexibleSpace();
         GUILayout.BeginHorizontal();
         EditorGUILayout.TextField("Hello");
         if (GUILayout.Button("Build"))
         {
-            Build.build.BuildProject();
+            Build.BuildProject();
         }
         GUILayout.EndHorizontal();
     }

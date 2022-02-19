@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -4990501253183764651}
   - component: {fileID: 6100723450899064882}
   - component: {fileID: 137765997946857068}
+  - component: {fileID: -4905558591966427327}
   m_Layer: 0
   m_Name: Star
   m_TagString: Star
@@ -49,6 +50,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -249,3 +252,20 @@ EdgeCollider2D:
   - {x: 3.96, y: 0}
   - {x: 3.96, y: 0}
   - {x: 3.96, y: 0}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!114 &-4905558591966427327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288531047111746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b22c7ab76e8ece8408baa5ef2d9aba12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 1288531047111746}

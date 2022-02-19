@@ -15,9 +15,9 @@ namespace Assets.Editor
         /// <summary>
         /// The sequential order to initiate the target build
         /// </summary>
-        public void BuildProject()
+        public static void BuildProject()
         {
-            //SceneHierarchy.sceneHierarchy.InitializeSceneHierarchy();
+            //SceneHierarchy.InitializeSceneHierarchy();
         }
     }
 }

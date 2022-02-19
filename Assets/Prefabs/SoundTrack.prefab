@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4920892132686904}
   - component: {fileID: 82574026775617772}
+  - component: {fileID: 3098752527631505108}
   m_Layer: 0
   m_Name: SoundTrack
   m_TagString: Untagged
@@ -127,3 +128,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3098752527631505108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936692577935680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b22c7ab76e8ece8408baa5ef2d9aba12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 1936692577935680}
