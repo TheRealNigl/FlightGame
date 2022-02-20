@@ -13,7 +13,6 @@ using UnityEngine.SceneManagement;
 
 namespace Assets.Editor
 {
-    [ExecuteInEditMode][DisallowMultipleComponent]
     class SceneHierarchy : MonoBehaviour
     {
         #region strings
@@ -21,8 +20,10 @@ namespace Assets.Editor
         /// <summary>
         /// 
         /// </summary>
-        private static string[] sceneNames = { "Assets/Scenes/Flight.unity" };
-        private static string[] SceneNames { get { return sceneNames; } set { } }
+        private static string[] scenePaths = { "Assets/Scenes/Main.unity",
+                                               "Assets/Scenes/UI.unity",
+                                               "Assets/Scenes/Game.unity", };
+        private static string[] ScenePaths { get { return scenePaths; } set { } }
 
         #endregion
 
@@ -31,9 +32,14 @@ namespace Assets.Editor
         /// <summary>
         /// 
         /// </summary>
+        [MenuItem("Tools/Reload Scenes")]
+        [InitializeOnLoadMethod]
         private static void Awake()
         {
-            EditorApplication.delayCall += InitializeSceneHierarchy;
+            if(!EditorApplication.isPlayingOrWillChangePlaymode)
+            {
+                EditorApplication.delayCall += InitializeSceneHierarchy;
+            }
         }
 
         /// <summary>
@@ -54,9 +60,9 @@ namespace Assets.Editor
         /// </summary>
         private static void SetSceneHierarchy()
         {
-            for (int sceneLoadCount = 0; sceneLoadCount < SceneNames.Length; sceneLoadCount++)
+            for (int sceneLoadCount = 0; sceneLoadCount < ScenePaths.Length; sceneLoadCount++)
             {
-                EditorSceneManager.OpenScene(SceneNames[sceneLoadCount], OpenSceneMode.Additive);
+                EditorSceneManager.OpenScene(ScenePaths[sceneLoadCount], OpenSceneMode.Additive);
             }
         }
 
