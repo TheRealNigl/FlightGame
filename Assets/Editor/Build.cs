@@ -5,10 +5,13 @@
 ///     
 ///
 /// Author: Alex Nigl
+/// 
+
+using UnityEditor;
 
 namespace Assets.Editor
 {
-    class Build
+    public class Build
     {
         public static Build build { get; set; }
 
@@ -17,7 +20,14 @@ namespace Assets.Editor
         /// </summary>
         public static void BuildProject()
         {
-            //SceneHierarchy.InitializeSceneHierarchy();
+            SceneHierarchy.InitializeSceneHierarchy();
+
+            CallUnityBuildTrigger();
+        }
+
+        private static void CallUnityBuildTrigger()
+        {
+            //BuildPipeline.BuildPlayer();
         }
     }
 }

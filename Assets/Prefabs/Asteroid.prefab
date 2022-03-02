@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 58280325794417386}
   - component: {fileID: 82826826168810978}
   - component: {fileID: 3303101548866517589}
+  - component: {fileID: 4399665535390674986}
   - component: {fileID: 1017205413863980200}
   m_Layer: 0
   m_Name: Asteroid
@@ -136,7 +137,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9ef6296da28ffde44812ea69c8fd33c4, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -230,6 +231,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9732477c78af24792af8964dbc8795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4399665535390674986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374950393685072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 055689677a17fba4f897412eb6a472b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1017205413863980200

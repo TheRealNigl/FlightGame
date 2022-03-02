@@ -13,7 +13,7 @@ using UnityEngine.SceneManagement;
 
 namespace Assets.Editor
 {
-    class SceneHierarchy : MonoBehaviour
+    public class SceneHierarchy : MonoBehaviour
     {
         #region strings
         
@@ -36,20 +36,29 @@ namespace Assets.Editor
         [InitializeOnLoadMethod]
         private static void Awake()
         {
-            if(!EditorApplication.isPlayingOrWillChangePlaymode)
+            if(!EditorApplication.isPlayingOrWillChangePlaymode && !BuildPipeline.isBuildingPlayer)
             {
-                EditorApplication.delayCall += InitializeSceneHierarchy;
+                EditorApplication.delayCall += RemoveSceneHierarchyDelegate;
             }
         }
 
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        public static void RemoveSceneHierarchyDelegate()
+        {
+            EditorApplication.delayCall -= RemoveSceneHierarchyDelegate;
+
+            InitializeSceneHierarchy();
+        }
+        
         /// <summary>
         /// 
         /// </summary>
         
         public static void InitializeSceneHierarchy()
         {
-            EditorApplication.delayCall -= InitializeSceneHierarchy;
-
             RemoveCurrentSceneHierarchy();
             SetSceneHierarchy();
             Debug.Log("Initialized Set Scene Hierarchy.");

@@ -4,7 +4,7 @@
 /// Description:
 ///     Controls player state and movement
 ///
-/// Author: Alex Nigl Alex Nigl
+/// Author: Alex Nigl
 
 
 using UnityEngine;

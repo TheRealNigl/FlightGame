@@ -1,5 +1,5 @@
 ﻿/// Title of class:
-///
+///     Shooting stars
 /// Description:
 ///     
 ///
@@ -8,13 +8,20 @@
 
 using UnityEngine;
 
-public class StarTwinkle : PoolHandler
+public class ShootingStars : PoolHandler
 {
+    /// <summary>
+    /// 
+    /// </summary>
     protected override void Initialize()
     {
         base.Initialize();
 
-        prefabInstance = Resources.Load("Star_Twinkle") as GameObject;
+        prefabInstance = Resources.Load("Star") as GameObject;
+
+        LowSpawnCount = RandomHelper.ReturnRandom(1, 2);
+        HighSpawnCount = RandomHelper.ReturnRandom(4, 5);
+        SpawnCount = RandomHelper.ReturnRandom(LowSpawnCount, HighSpawnCount);
     }
 
     /// <summary>
@@ -31,6 +38,7 @@ public class StarTwinkle : PoolHandler
             spawnYPosition = Random.Range(-4, 4);
 
             prefabInstances[CurrentInstance].transform.position = new Vector2(spawnXPosition, spawnYPosition);
+            prefabInstances[CurrentInstance].GetComponent<Star>().EnemyStates = EnemyStates.HasNotScored;
 
             CurrentInstance++;
             if (CurrentInstance >= SpawnCount)

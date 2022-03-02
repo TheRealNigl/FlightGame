@@ -58,20 +58,26 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Database\TableService.cs" />
     <Compile Include="Assets\Scripts\Scenes\Scenes.cs" />
-    <Compile Include="Assets\Scripts\Enemies\Planet.cs" />
+    <Compile Include="Assets\Scripts\Spawns\Enemies\Unique\Planet.cs" />
+    <Compile Include="Assets\Scripts\Scenes\PrefabEntityReference.cs" />
     <Compile Include="Assets\Scripts\World\StarTwinkle.cs" />
     <Compile Include="Assets\Scripts\Player\Asteroid.cs" />
-    <Compile Include="Assets\Scripts\Collectibles\Star.cs" />
-    <Compile Include="Assets\Scripts\User Interface\GameController.cs" />
+    <Compile Include="Assets\Scripts\Spawns\Collectibles\Unique\Star.cs" />
+    <Compile Include="Assets\Scripts\World\GameController.cs" />
+    <Compile Include="Assets\Scripts\Scenes\PrefabReference.cs" />
     <Compile Include="Assets\Scripts\Scenes\SceneHierarchy.cs" />
+    <Compile Include="Assets\Scripts\Player\Score.cs" />
     <Compile Include="Assets\Scripts\World\Background.cs" />
+    <Compile Include="Assets\Scripts\World\PoolHandler.cs" />
+    <Compile Include="Assets\Scripts\Enums\EnemyStates.cs" />
     <Compile Include="Assets\Scripts\Database\Person.cs" />
     <Compile Include="Assets\Scripts\Scenes\SubsceneExample.cs" />
-    <Compile Include="Assets\Scripts\Collectibles\ShootingStars.cs" />
+    <Compile Include="Assets\Scripts\World\ShootingStars.cs" />
     <Compile Include="Assets\Scripts\Misc\RandomHelper.cs" />
-    <Compile Include="Assets\Scripts\Enemies\PlanetPool.cs" />
-    <Compile Include="Assets\Scripts\Scenes\PrefabReference.cs" />
-    <Compile Include="Assets\Scripts\Scenes\PrefabEntityReference.cs" />
+    <Compile Include="Assets\Scripts\World\PlanetPool.cs" />
+    <Compile Include="Assets\Scripts\Spawns\Shared\Spawnable.cs" />
+    <Compile Include="Assets\Scripts\Spawns\Enemies\Shared\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Spawns\Collectibles\Shared\Collectable.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -297,7 +303,7 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.29f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@0.12.0-preview.13\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@0.14.0-preview.16\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0-preview\Runtime\Newtonsoft.Json.dll</HintPath>
@@ -309,7 +315,7 @@
       <HintPath>Library\PackageCache\com.unity.analytics@3.7.1\Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.3.2\Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.3.7\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>Library\PackageCache\com.unity.analytics@3.7.1\Unity.Analytics.Tracker.dll</HintPath>
